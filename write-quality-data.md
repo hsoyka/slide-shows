@@ -6,33 +6,12 @@ Tutorials on Data Management
 ![](images/quality-metadata/DataONE_LOGO.jpg)
 
 
-
-## Lesson topics:
-	1. Preparing to write metadata
-	2. Tips for writing a quality metadata record
-
-
-
-
-
-
-<section>
-  <aside class="notes">
-    The topics in this module will illustrate steps for preparation and writing of quality metadata. 
-
-  </aside>
-</section>
-
-
-
-
-
 ## Learning Objectives
 
 After completing this lesson, participants will be able to:
 
-	* List preparatory steps for writing metadata
-	* Explain how and why to write quality metadata
+* List preparatory steps for writing metadata
+* Explain how and why to write quality metadata
 
 
 ## The DataONE Data Life Cycle

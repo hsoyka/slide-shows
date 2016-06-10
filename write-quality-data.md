@@ -5,7 +5,7 @@ Tutorials on Data Management
 
 
 
-
+![](images/quality-metadata/DataONE_LOGO_Transparent.tif)
 
 
 
@@ -42,11 +42,10 @@ After completing this lesson, participants will be able to:
 
 
 
-![](images/intro-rr/Good-better-best_RepSciCur_PengScience.jpg)
+![](images/quality-metadata/datalifecycle.jpg)
 
 
 
-Reproducibility spectrum for published research. Source: Peng, RD Reproducible Research in Computational Science Science (2011): 1226–1227 via Reproducible Science Curriculum
 
 
 

@@ -35,92 +35,94 @@ After completing this lesson, participants will be able to:
 	> Explain how and why to write quality metadata
 
 
-## Reproducibility & Your research
-
+## The DataONE Data Life Cycle
 
 
 ![](images/quality-metadata/datalifecycle.jpg)
 
 
+<section>
+  <aside class="notes">
+    Metadata creation is a part of the “Describe” step in the data lifecycle. 
+
+
+  </aside>
+</section>
 
 
 
-
-##
-
-
-
-> [Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) - Florian Markowetz
-
-
-
-1. Reproducibility helps to avoid disaster
-
-2. Reproducibility makes it easier to write papers
-
-3. Reproducibility helps reviewers see it your way
-
-4. Reproducibility enables continuity of your work
-
-5. Reproducibility helps to build your reputation
+##  6 Steps to Creating Quality Metadata
+1. Organize your information.
+	-Did you write a project abstract to obtain funding for your proposal? Re-use it in your metadata! 
+	-Did you use a lab notebook or other notes during the data development process that define measurements and other parameters? 
+	-Do you have the contact information for colleagues you worked with?
+	-What about citations for other data sources you used in your project?
 
 
 
-## How to Make Work Reproducible
+## 
+2. Write your metadata using a metadata tool
+3. Review the record for accuracy and completeness
+4. Have someone else read & review your record
+5. Revise the record based on comments from reviewer
+6. Review the record and then publish!
 
 
 
-> For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them.
+## Tips for writing quality metadata
+1. Do not use jargon
+2. Define technical terms and acronyms
+3. Clearly state data limitations (eg. completeness, omissions) and considerations for data reuse
+4. Use "none" or "unknown" meaningfully
+	-"None" usually means that you knew about data and nothing existed (e.g., a “0” cubic feet per second discharge value)
+	-"Unknown" means that you don’t know whether that data existed or not (e.g., a null value)
+
+## 
+5. Titles are critical for helping others find your data
+	-Complete titles include: What, When, Where, Who, and Scale.
+	-Informative titles include: topic, timeliness of the data, specific information about place and geography
+
+## Example: Which is better?
+
+A: Rivers
+
+B: Greater Yellowstone Rivers from 1:126,700 U.S.Forest Service Visitor Maps (1961-1983)
 
 
-
-## Who do we need to share with?
-
-
-
-* Collaborators
-
-* Peer reviewers & journal editors
-
-* Broad scientific community
-
-* The public
+## More Tips for Writing Quality Metadata
+6. Be specific! Quantify when you can.
+	Example: 
+	"We checked our work using a random sample of 5 monitoring sites, reviewed by 2 people. We determined our work to be 95% complete based on these inspections."
 
 
+## More Tips for Writing Quality Metadata
+7. Select keywords wisely
+8. Use descriptive & clear writing
+9. Fully qualify geographic locations
+10. Use standard domain thesauri for keywords when possible (eg. USGS Biocomplexity Thesaurus)
 
 
-
-## Better Research
-
-
-
-<div class="column column1">
-
+## More Tips for Writing Quality Metadata
+11. Remember: a computer will read your metadata
+12. Do not use symbols that could be misinterpreted 
+13. Do not use tabs, indents, or line feeds
+14. When copying and pasting from other sources, use a text editor to eliminate hidden characters 
 
 
-![](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
+## Summary
 
-</div>
+Review your final product to make sure that the documentation represents all of the information necessary to use or reuse the data.
 
-<div class="column column2">
+Remember: a well-written title and good keywords are critical to data discovery!
 
-Figure 1. Distribution of reporting errors per paper. Papers from which data were shared has fewer errors. 
+## 
+The full slide deck may be downloaded from: http://www.dataone.org/education-modules
+Suggested citation:
+DataONE Education Module: How to Write Good Quality Metadata. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L08_WriteQualityMetadata.pptx 
 
-<small>Click on citation to view paper.</small>
-
-<small><a href="http://dx.doi.org/10.1371/journal.pone.0026828" target="_blank">Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.</a></small>
-
-</div>
-
+Copyright license information: No rights reserved; you may enhance and reuse for your own purposes.  We ask that you provide appropriate citation and attribution to DataONE.
 
 
-## The tools we will use
-
-
-
-* GitHub: Version Control / Collaboration / Dissemination
-
-* R Markdown: Code Documentation / Dissemination
 
 
 

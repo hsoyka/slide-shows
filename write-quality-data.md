@@ -56,7 +56,7 @@ After completing this lesson, participants will be able to:
 	*"None" usually means that you knew about data and nothing existed (e.g., a “0” cubic feet per second discharge value)
 	*"Unknown" means that you don’t know whether that data existed or not (e.g., a null value)
 
-## 
+## Titles!
 5. Titles are critical for helping others find your data
 	*Complete titles include: What, When, Where, Who, and Scale.
 	*Informative titles include: topic, timeliness of the data, specific information about place and geography

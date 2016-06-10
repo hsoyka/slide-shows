@@ -3,10 +3,7 @@
 Tutorials on Data Management
 
 
-
-
-![](images/quality-metadata/DataONE_LOGO_Transparent.tif)
-
+![](images/quality-metadata/DataONE_LOGO.jpg)
 
 
 

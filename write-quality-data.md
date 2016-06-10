@@ -10,10 +10,9 @@ Tutorials on Data Management
 
 
 
-##
-Lesson topics:
-	-Preparing to write metadata
-	-Tips for writing a quality metadata record
+## Lesson topics:
+	1. Preparing to write metadata
+	2. Tips for writing a quality metadata record
 
 
 
@@ -22,7 +21,8 @@ Lesson topics:
 
 <section>
   <aside class="notes">
-    :)
+    The topics in this module will illustrate steps for preparation and writing of quality metadata. 
+
   </aside>
 </section>
 
@@ -30,12 +30,12 @@ Lesson topics:
 
 
 
-## Why Use Reproducible Methods?
+## Learning Objectives
 
+After completing this lesson, participants will be able to:
 
-
-> More efficient, less redundant science: others can build upon our work.
-
+	> List preparatory steps for writing metadata
+	> Explain how and why to write quality metadata
 
 
 ## Reproducibility & Your research

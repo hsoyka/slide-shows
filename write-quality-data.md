@@ -1,23 +1,20 @@
-## Intro to Reproducible Science
+## Lesson 8: How to write quality metadata
 
-Adapted from the Reproducible Science Curriculum
+Tutorials on Data Management
 
 
 
-_Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, 
-and everyone else who contributed to these materials._
 
-_NEON has adapted them to our week long Data Institute._
+
+
 
 
 
 ##
+Lesson topics:
+	-Preparing to write metadata
+	-Tips for writing a quality metadata record
 
-> Reproducibilty is actually all about being as lazy as possible!
-
--- Hadley Wickham (via
-[Twitter](https://twitter.com/hadleywickham/status/598532170160873472),
-2015-05-03)
 
 
 

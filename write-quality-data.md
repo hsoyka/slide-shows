@@ -31,8 +31,8 @@ Tutorials on Data Management
 
 After completing this lesson, participants will be able to:
 
-	> List preparatory steps for writing metadata
-	> Explain how and why to write quality metadata
+	* List preparatory steps for writing metadata
+	* Explain how and why to write quality metadata
 
 
 ## The DataONE Data Life Cycle
@@ -53,10 +53,10 @@ After completing this lesson, participants will be able to:
 
 ##  6 Steps to Creating Quality Metadata
 1. Organize your information.
-	-Did you write a project abstract to obtain funding for your proposal? Re-use it in your metadata! 
-	-Did you use a lab notebook or other notes during the data development process that define measurements and other parameters? 
-	-Do you have the contact information for colleagues you worked with?
-	-What about citations for other data sources you used in your project?
+	*Did you write a project abstract to obtain funding for your proposal? Re-use it in your metadata! 
+	*Did you use a lab notebook or other notes during the data development process that define measurements and other parameters? 
+	*Do you have the contact information for colleagues you worked with?
+	*What about citations for other data sources you used in your project?
 
 
 
@@ -74,13 +74,13 @@ After completing this lesson, participants will be able to:
 2. Define technical terms and acronyms
 3. Clearly state data limitations (eg. completeness, omissions) and considerations for data reuse
 4. Use "none" or "unknown" meaningfully
-	-"None" usually means that you knew about data and nothing existed (e.g., a “0” cubic feet per second discharge value)
-	-"Unknown" means that you don’t know whether that data existed or not (e.g., a null value)
+	*"None" usually means that you knew about data and nothing existed (e.g., a “0” cubic feet per second discharge value)
+	*"Unknown" means that you don’t know whether that data existed or not (e.g., a null value)
 
 ## 
 5. Titles are critical for helping others find your data
-	-Complete titles include: What, When, Where, Who, and Scale.
-	-Informative titles include: topic, timeliness of the data, specific information about place and geography
+	*Complete titles include: What, When, Where, Who, and Scale.
+	*Informative titles include: topic, timeliness of the data, specific information about place and geography
 
 ## Example: Which is better?
 
@@ -128,210 +128,8 @@ Copyright license information: No rights reserved; you may enhance and reuse for
 
 
 
-## Four Facets of Reproducibility
 
 
-_Over the next week, we will focus on the tools and skills associated with these facets._
-
-1. Organization
-2. Automation
-3. Documentation
-4. Dissemination
-
-
-
-## 1. Organization
-
-The more self explanatory the better:
-
-* Consider overall structure of folders and files.
-* Use informative file names.
-
-## 1. Organization Pro-Tip
-
-> A variable name that describes the object is more useful than a random variable name.
-
-##
-
-![](images/intro-rr/basmati-rice.png)
-
-##
-
-<div style="width:85%">
-![](http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1000424.g001)
-</div>
-
-<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank">
-  Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a>
-
-
-## 1. Organization
-
-File Organization should:
-
-* Reflect inputs, outputs and information flow.
-* Preserve raw data so it's not modified.
-* Carefully document & store intermediate & end outputs.
-* Carefully document & store data processing scripts.
-
-
-## Organization
-
-![](images/intro-rr/fileOrganization.png)
-
-## 1. Organization -- File Names
-
-File / Folder Names should be:
-
-* Machine readable.
-* Human readable.
-* Support sorting.
-
-## Which set of file names are most self-explanatory?
-![](images/intro-rr/human-readable-jenny.png)
-
-
-##
-<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on file naming & organization</a>
- 
--- from the Reproducible Science Curriculum.
-
-## 1. Organization - Benefits
-
-* Your future self will be able to quickly find files.
-* Colleagues will be able to more quickly understand your workflow.
-* Machine readable names can be quickly and easily sorted and parsed.
-
-
-## 2. Automation Pro-Tip
-
-Scripting vs. Point and click
-
->  Script = more time spent up front, but will save time in the long run.
-
-
-## 2. Automation Pro-Tip
-Time Savings:
-
-* More efficient to modify and repeat an analysis down the road.
-* Easier for reviewers and colleagues to see even aspect of your methods.
-* Self documenting methods - your future self will likely forget small steps.
-
-## 2. Automation
-
-DRY -- Don't Repeat Yourself
-
-> If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.
-
-<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a>
-
-
-## Automation Tips
-
-Modularity -- use functions to write code in reusable chunks.
-
-* Variables created within a function are temporary.
-* Code with functions can be easier to read / cleaner.
-* Allows for better documentation.
-* Supports testing.
-* Allows for re-use of code on other data.
-
-##
-
-![](images/intro-rr/index.jpg)
-
-## 2. Documentation
-
-Document all workflow steps:
-
-* You can remind your future self of your workflow.
-* Others can see and understand your work.
-* Future "re-analysis" of your data is more efficient.
-
-
-## Documentation
-
-Code should be easy to understand with clear goals
-
-> Document your code even if you think it's clear and simple. Your collaborators
-> & your future self will inevitably have an easier time working with it down the road.
-
-## Documentation Pro-Tip 1
-
-> Add comments around functions that describe purpose, inputs and outputs.
-
-
-## Documentation Pro-Tip 2
->  Avoid proprietary formats: Use text files (.txt, .md) that don't require special tools to open.
-
-## Documentation Pro-Tip 3
->  Markdown to style documentation = machine readable, small file size, low overhead.
-
-## Documentation Pro-Tip 4
-
-Use coding approaches that connect data cleaning, analysis & results
-
-> R Markdown and IPython / Jupyter notebooks allow you to publish code and results
-in one (or more) output files.
-
-
-
-## Dissemination
-
-> Publishing is not the end of your analysis, rather it is a way towards
-> your future research and the future research of others.
-
-## Dissemination - Why
-
-* Funding agency / journal requirement.
-* Community expects it.
-* Increased visibility / citation.
-* More efficient, less redundant science.
-
-
-
-
-
-## Dissemination workflow
-
-
-
-Example Workflow / Tools (R focused):
-
-
-
-* Document workflow: **R Markdown / Jupiter Notebooks**
-
-* Collaborate with Colleagues / Version Control : **GitHub**
-
-* Publish Data Snapshot: **FigShare, Dryad, etc**
-
-* Share workflow: ** RPubs , IPython Notebook Viewer**
-
-
-
-
-
-## Four Facets of Reproducibility
-
-
-
-_An overview of some of the topics, tools and skills that we will cover during 
-the Data Institute_
-
-
-
-1. Documentation - RMarkdown, GitHub
-
-2. Organization - File naming / directory structure best practices.
-
-3. Automation - Efficient Coding Practices (in R)
-
-4. Dissemination - GitHub
-
-
-
-## Questions?
 
 
 

@@ -1,7 +1,5 @@
 # Build DataOne Slide Decks
 
-Contributors:
-Jonah Duckles, Leah Wasser, Megan Jones
 
 A markdown based system to build DataOne education modules using reveal.js.
 
